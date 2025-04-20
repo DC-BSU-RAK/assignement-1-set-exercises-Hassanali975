@@ -1,0 +1,113 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: white;
+  color: #000;
+}
+
+/* Header styles */
+header {
+  background-color: #1b0a2a;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #1b0a2a;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 1.3em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content layout */
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 40px;
+}
+
+/* Left (main text) */
+section {
+  flex: 2;
+}
+
+section h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  border-bottom: 3px solid black;
+  display: inline-block;
+}
+
+section p {
+  margin: 20px 0;
+  font-size: 1.1em;
+}
+
+/* Right (sidebar) */
+aside {
+  flex: 1;
+  background-color: #1b3a6e;
+  color: white;
+  padding: 20px;
+}
+
+aside h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  border-bottom: 3px solid white;
+  display: inline-block;
+}
+
+aside ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+aside li {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #8000ff;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 1em;
+}
